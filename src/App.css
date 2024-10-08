@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 85vh;
+  }
+  .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  }
+  }
+  .App-header {
+  background-color: #0b0b0b;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: row;
+  
+  font-size: calc(3px + 2vmin);
+  color: white;
+  }
+  .App-body {
+  display: flex;
+  flex-direction: column;
+  background-color: #dddfe0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+  
+  .App-link {
+  color: #61dafb;
+  }
+  @keyframes App-logo-spin {
+  from {
+  transform: rotate(0deg);
+  }
+  to {
+  transform: rotate(360deg);
+  }
+  }
+  .App-grid {
+  background-color: rgb(203, 164, 164);
+  }
+  .social-icon {
+  margin-left: 50px;
+  }
+  .App-avartar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  }
+  .App-footer {
+  background-color: rgb(9, 189, 249);
+  display: flex;
+  flex-direction: column;
+  font-size: calc(3px + 2vmin);
+  color: rgb(201, 40, 40);
+  justify-content: center;
+  align-items: center;
+  height:40px;
+  margin-top:300px;
+  margin-left:40px;
+
+  }
+
+  .text-p{
+  margin: 200px;
+  color: #6609e8;  
+  }
+
+  .mt-5{
+ background-color: #07bff2;
+ padding: 10px;
+ text-align: center;
+ color: #000000;
+ margin-top: auto;
+  
+  }
+  .custom-navbar {
+    background-color: #07bff2; /* เปลี่ยนเป็นสีที่คุณต้องการ */
+    color: rgb(0, 0, 0);
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.custom-navbar .nav-link:hover {
+    color: #ffc107; /* เปลี่ยนสีเมื่อ hover */
+}
